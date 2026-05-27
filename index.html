@@ -1,34 +1,183 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-MZ">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catálogo de Imagens</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEN Digital MZ - Soluções Digitais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header class="gallery-header">
-    <div class="container">
-      <a class="logo" href="#">Catálogo de Imagens</a>
-      <p>Coloque todas as imagens aqui. Copie os arquivos JPEG para esta pasta e atualize o nome, se necessário.</p>
-    </div>
-  </header>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-digital-tachograph"></i>
+                <span>TEN Digital</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <main class="container gallery-page">
-    <section class="gallery-intro">
-      <h1>Galeria de Fotos</h1>
-      <p>Esta página mostra todas as imagens do catálogo. Se os arquivos existirem na mesma pasta, elas serão exibidas automaticamente.</p>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme seu Negócio Digital</h1>
+                <p>Soluções inovadoras para sua presença online</p>
+                <button class="btn btn-primary">Comece Agora</button>
+            </div>
+        </div>
     </section>
 
-    <section id="gallery" class="gallery-grid" aria-label="Galeria de imagens">
-      <!-- As imagens serão carregadas pelo script -->
+    <!-- Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A TEN Digital MZ é uma agência de soluções digitais focada em ajudar empresas a alcançar seus objetivos através da tecnologia e inovação.</p>
+                    <p>Com uma equipe experiente, oferecemos serviços de qualidade que transformam ideias em realidade.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>50+</h3>
+                        <p>Projetos</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>30+</h3>
+                        <p>Clientes</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>5+</h3>
+                        <p>Anos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="gallery-note">
-      <p>Para usar esta galeria, copie os arquivos JPEG listados para a pasta atual e recarregue a página.</p>
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Design Web</h3>
+                    <p>Designs modernos e responsivos para sua marca</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento</h3>
+                    <p>Soluções web robustas e escaláveis</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Aplicações móveis inovadoras</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>SEO & Marketing</h3>
+                    <p>Aumente sua visibilidade online</p>
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <script src="gallery.js"></script>
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Nossos Trabalhos</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span>Projeto 1</span>
+                    </div>
+                    <h3>E-commerce Moderno</h3>
+                    <p>Plataforma de vendas online</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span>Projeto 2</span>
+                    </div>
+                    <h3>App de Entrega</h3>
+                    <p>Sistema de logística inteligente</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span>Projeto 3</span>
+                    </div>
+                    <h3>Portal Educacional</h3>
+                    <p>Plataforma de aprendizado online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>+258 844 772 002</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>tenurbo2026@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>Maputo, Moçambique</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TEN Digital MZ. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
