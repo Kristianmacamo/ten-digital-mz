@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Imagens</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="gallery-header">
+    <div class="container">
+      <a class="logo" href="#">Catálogo de Imagens</a>
+      <p>Coloque todas as imagens aqui. Copie os arquivos JPEG para esta pasta e atualize o nome, se necessário.</p>
+    </div>
+  </header>
+
+  <main class="container gallery-page">
+    <section class="gallery-intro">
+      <h1>Galeria de Fotos</h1>
+      <p>Esta página mostra todas as imagens do catálogo. Se os arquivos existirem na mesma pasta, elas serão exibidas automaticamente.</p>
+    </section>
+
+    <section id="gallery" class="gallery-grid" aria-label="Galeria de imagens">
+      <!-- As imagens serão carregadas pelo script -->
+    </section>
+
+    <section class="gallery-note">
+      <p>Para usar esta galeria, copie os arquivos JPEG listados para a pasta atual e recarregue a página.</p>
+    </section>
+  </main>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
